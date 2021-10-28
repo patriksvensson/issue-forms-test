@@ -11,7 +11,7 @@ body:
     attributes:
       label: Operating System
       description: What operating system did you encounter this bug on?
-      placeholder: ex. Windows/Linux/macOS
+      placeholder: ex. Windows, Linux, macOS
     validations:
       required: true
   - type: input
