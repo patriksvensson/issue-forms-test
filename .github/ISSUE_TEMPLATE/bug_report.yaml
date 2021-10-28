@@ -23,7 +23,7 @@ body:
     validations:
       required: true
   - type: input
-    id: version
+    id: terminal
     attributes:
       label: Terminal
       description: What terminal did you use when you encountered the bug?
