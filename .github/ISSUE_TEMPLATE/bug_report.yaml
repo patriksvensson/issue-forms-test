@@ -1,0 +1,60 @@
+name: Bug Report
+description: File a bug report
+labels: ["bug", "needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: os
+    attributes:
+      label: Operating System
+      description: What operating system did you encounter this bug on?
+      placeholder: ex. Windows/Linux/macOS
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: What version did you see the bug in?
+      placeholder: ex. 0.42
+    validations:
+      required: true
+  - type: terminal
+    id: version
+    attributes:
+      label: Terminal
+      description: What terminal did you use when you encountered the bug?
+      placeholder: ex. Windows Terminal, iTerm2
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what happened!
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: How can we reproduce this?
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Relevant output
+      description: Please copy and paste any relevant output. This will be automatically formatted into code, so no need for backticks.
+      render: shell
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
