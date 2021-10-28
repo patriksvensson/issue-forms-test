@@ -1,5 +1,5 @@
 name: 🐞 Bug Report
-description: File a bug report
+description: Did you find a bug in Spectre.Console?
 labels: ["bug", "needs triage"]
 body:
   - type: markdown
