@@ -42,7 +42,7 @@ body:
     id: reproduce
     attributes:
       label: How can we reproduce this?
-      desciption: A minimal reproducable example is appreciated, but not mandatory.
+      description: A minimal reproducable example is appreciated, but not mandatory.
     validations:
       required: true
   - type: textarea
