@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💡 Feature request
+    url: https://github.com/spectreconsole/spectre.console/discussions/new?category=ideas
+    about: Have an idea or request for Spectre.Console?
