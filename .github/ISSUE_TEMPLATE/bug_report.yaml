@@ -22,7 +22,7 @@ body:
       placeholder: ex. 0.42
     validations:
       required: true
-  - type: terminal
+  - type: input
     id: version
     attributes:
       label: Terminal
