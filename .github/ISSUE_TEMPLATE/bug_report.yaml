@@ -41,7 +41,7 @@ body:
   - type: textarea
     id: reproduce
     attributes:
-      label: How can we reproduce this?
+      label: How can we reproduce this? A minimal reproducable example is appreciated, but not mandatory.
     validations:
       required: true
   - type: textarea
