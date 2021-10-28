@@ -43,8 +43,6 @@ body:
     attributes:
       label: How can we reproduce this?
       description: A minimal reproducable example is appreciated, but not mandatory.
-    validations:
-      required: true
   - type: textarea
     id: output
     attributes:
